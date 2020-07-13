@@ -1,3 +1,7 @@
+li
+{
+  text-align: justify;
+}
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #fefeff;
@@ -182,7 +186,7 @@ a:focus {
 /* hero section */
 .hero-container {
   display: flex;
-  padding-top: 0px;
+  padding-top: 5%;
   padding-bottom: 325px;
 }
 
@@ -191,14 +195,14 @@ a:focus {
 }
 
 .hero_img-container {
-  width: 68%;
+  width: 80%;
   margin-right: -8%;
   margin-top: -5%;
   margin-left: 1%;
 }
 
 .hero_img-container img {
-  width: 59%;
+  width: 90%;
 }
 
 .hero_detail-box {
@@ -227,6 +231,8 @@ a:focus {
 
 .common_style .row {
   align-items: center;
+  padding-bottom: 3em;
+  padding-top: 3em;
 }
 
 .common_style h3 {
@@ -250,6 +256,7 @@ a:focus {
 /* about section */
 .about_section {
   text-align: right;
+  padding-bottom: 10%;
 }
 
 .about_section a {
